@@ -62,7 +62,6 @@ set expandtab
 
 " Display extra whitespace
 set list listchars=tab:»·,trail:·
-
 " Use The Silver Searcher https://github.com/ggreer/the_silver_searcher
 if executable('ag')
   " Use Ag over Grep
@@ -79,10 +78,6 @@ endif
 "colorscheme github
 "highlight NonText guibg=#060606
 "highlight Folded  guibg=#0A0A0A guifg=#9090D0
-
-" Make it obvious where 80 characters is
-"set textwidth=80
-"set colorcolumn=+1
 
 " Numbers
 set number
@@ -139,6 +134,10 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
+nnoremap ; :
+nnoremap v <C-V>
+nnoremap <C-V> v
+nnoremap U :echo " < < ===== C H E C K C A P S L O C K ===== > > "<CR>
 " configure syntastic syntax checking to check on open as well as save
 let g:syntastic_check_on_open=1
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
@@ -151,6 +150,11 @@ autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 let g:solarized_termcolors=256
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
-
+" Make it obvious where 80 characters is
+"set textwidth=80
+"set colorcolumn=+1
+highlight ColorColumn ctermbg=blue
+call matchadd('ColorColumn', '\%81v', 100)
+"
