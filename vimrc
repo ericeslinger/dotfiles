@@ -157,4 +157,5 @@ colorscheme solarized
 "set colorcolumn=+1
 highlight ColorColumn ctermbg=blue
 call matchadd('ColorColumn', '\%81v', 100)
-"
+
+set mouse=a
