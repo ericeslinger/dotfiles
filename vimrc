@@ -142,6 +142,8 @@ nnoremap U :echo " < < ===== C H E C K C A P S L O C K ===== > > "<CR>
 let g:syntastic_check_on_open=1
 let g:syntastic_html_tidy_ignore_errors=[" proprietary attribute \"ng-"]
 
+let g:vim_json_syntax_conceal = 0
+
 " Local config
 if filereadable($HOME . "/.vimrc.local")
   source ~/.vimrc.local
@@ -156,6 +158,6 @@ colorscheme solarized
 "set textwidth=80
 "set colorcolumn=+1
 highlight ColorColumn ctermbg=blue
-call matchadd('ColorColumn', '\%81v', 100)
+call matchadd('ColorColumn', '\%151v', 100)
 
 set mouse=a
