@@ -1,5 +1,12 @@
-thoughtbot dotfiles
-===================
+thoughtbot dotfiles (as modified by EricEslinger for his on Nefarious Porpoises
+===============================================================================
+
+Modifications from the original:
+* Added a few extra vim packages (notably, NerdTree and solarize)
+* Re-allow users to navigate with arrow keys
+* Enable mouse interactions
+* Change max textwidth to 150 because: I said so.
+
 
 Requirements
 ------------
