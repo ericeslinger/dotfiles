@@ -79,3 +79,5 @@ export PATH=".git/safe/../../bin:$PATH"
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
 export TERM='xterm-256color'
 
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
