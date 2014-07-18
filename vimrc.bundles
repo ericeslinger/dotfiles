@@ -31,6 +31,8 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'gregsexton/MatchTag'
 Bundle 'elzr/vim-json'
+Bundle 'pangloss/vim-javascript'
+Bundle 'mustache/vim-mustache-handlebars'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local
