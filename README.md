@@ -29,14 +29,18 @@ Install [rcm](https://github.com/thoughtbot/rcm):
 
     brew bundle dotfiles/Brewfile
 
-Install:
+Install the dotfiles:
 
-    rcup -d dotfiles -x README.md -x LICENSE -x Brewfile
+    env RCRC=$HOME/dotfiles/rcrc rcup
 
-This will create symlinks for config files in your home directory. The `-x`
-options, which exclude the `README.md`, `LICENSE`, and `Brewfile` files, are
-needed during installation but can be skipped once the `.rcrc` configuration
-file is symlinked in.
+This command will create symlinks for config files in your home directory.
+Setting the `RCRC` environment variable tells `rcup` to use standard
+configuration options:
+
+* Exclude the `README.md`, `LICENSE`, and `Brewfile` files, which are part of
+  the `dotfiles` repository but do not need to be symlinked in.
+* Give precedence to personal overrides which by default are placed in
+  `~/dotfiles-local`
 
 You can safely run `rcup` multiple times to update:
 
@@ -50,6 +54,8 @@ Put your customizations in dotfiles appended with `.local`:
 * `~/.aliases.local`
 * `~/.gitconfig.local`
 * `~/.gvimrc.local`
+* `~/.psqlrc.local` (we supply a blank `.psqlrc.local` to prevent `psql` from
+  throwing an error, but you should overwrite the file with your own copy)
 * `~/.tmux.conf.local`
 * `~/.vimrc.local`
 * `~/.vimrc.bundles.local`
@@ -77,8 +83,8 @@ Your `~/.zshrc.local` might look like this:
 
 Your `~/.vimrc.bundles.local` might look like this:
 
-    Bundle 'Lokaltog/vim-powerline'
-    Bundle 'stephenmckinney/vim-solarized-powerline'
+    Plugin 'Lokaltog/vim-powerline'
+    Plugin 'stephenmckinney/vim-solarized-powerline'
 
 What's in it?
 -------------
@@ -98,7 +104,7 @@ What's in it?
   available.
 * Use [Exuberant Ctags](http://ctags.sourceforge.net/) for tab completion.
 * Use [GitHub color scheme](https://github.com/croaky/vim-colors-github).
-* Use [Vundle](https://github.com/gmarik/vundle) to manage plugins.
+* Use [Vundle](https://github.com/gmarik/Vundle.vim) to manage plugins.
 
 [tmux](http://robots.thoughtbot.com/a-tmux-crash-course)
 configuration:
