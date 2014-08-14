@@ -26,6 +26,3 @@
   template = ~/.gitmessage
 [fetch]
   prune = true
-[user]
-	email = eric.eslinger@gmail.com
-	name = ericeslinger
