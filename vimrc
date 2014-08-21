@@ -170,3 +170,6 @@ highlight ColorColumn ctermbg=blue
 call matchadd('ColorColumn', '\%151v', 100)
 
 set mouse=a
+noremap <LeftDrag> <LeftMouse>
+noremap! <LeftDrag> <LeftMouse>
+
