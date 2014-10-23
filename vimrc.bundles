@@ -33,6 +33,7 @@ Bundle 'gregsexton/MatchTag'
 Bundle 'elzr/vim-json'
 Bundle 'pangloss/vim-javascript'
 Bundle 'mustache/vim-mustache-handlebars'
+Bundle 'vim-scripts/a.vim'
 
 if filereadable(expand("~/.vimrc.bundles.local"))
   source ~/.vimrc.bundles.local

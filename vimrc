@@ -63,6 +63,12 @@ set shiftwidth=2
 set shiftround
 set expandtab
 
+" switch between .js and .coffee with a.vim
+let g:alternateExtensions_coffee = 'js'
+let g:alternateExtensions_js = 'coffee'
+let g:alternateSearchPath =  'reg:#/api#/backend#,reg:#/web#/frontend/scripts#'
+let g:alternateNoDefaultAlternate = 1
+
 " Display extra whitespace
 set list listchars=tab:»·,trail:·
 
