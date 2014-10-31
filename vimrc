@@ -167,8 +167,10 @@ autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
 let g:solarized_termcolors=256
 syntax enable
-set background=light
-colorscheme solarized
+set background=dark
+let g:rehash256 = 1
+
+colorscheme molokai
 " Make it obvious where 80 characters is
 "set textwidth=80
 "set colorcolumn=+1
@@ -178,4 +180,3 @@ call matchadd('ColorColumn', '\%151v', 100)
 set mouse=a
 noremap <LeftDrag> <LeftMouse>
 noremap! <LeftDrag> <LeftMouse>
-
