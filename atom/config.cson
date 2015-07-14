@@ -1,0 +1,20 @@
+"*":
+  "exception-reporting":
+    userId: "4c7649fe-542d-8db1-5f36-d42f206336ea"
+  welcome:
+    showOnStartup: false
+  "merge-conflicts": {}
+  core:
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  minimap: {}
+  editor:
+    invisibles: {}
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+  "highlight-selected": {}
+  "linter-htmlhint": {}
+  linter: {}
