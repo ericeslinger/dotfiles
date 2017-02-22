@@ -1,8 +1,0 @@
-[19339:0714/112929:ERROR:browser_main_loop.cc(170)] Running without the SUID sandbox! See https://code.google.com/p/chromium/wiki/LinuxSUIDSandboxDevelopment for more information on developing with the sandbox on.
-App load time: 190ms
-[19373:0714/112929:INFO:renderer_main.cc(212)] Renderer process started
-[19339:0714/112931:INFO:CONSOLE(15)] "activate linter-csslint", source: /home/eric/dotfiles/atom/packages/linter-csslint/lib/init.coffee (15)
-[19339:0714/112931:INFO:CONSOLE(15)] "activate linter-htmlhint", source: /home/eric/dotfiles/atom/packages/linter-htmlhint/lib/init.coffee (15)
-[19339:0714/112931:INFO:CONSOLE(16)] "activate linter-scss-lint", source: /home/eric/dotfiles/atom/packages/linter-scss-lint/lib/init.coffee (16)
-[19339:0714/112932:INFO:CONSOLE(56)] "Window load time: 2828ms", source: file:///usr/share/atom/resources/app.asar/static/index.js (56)
-Created new window in existing browser session.

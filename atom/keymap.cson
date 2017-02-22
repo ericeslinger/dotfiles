@@ -1,2 +1,3 @@
 '.platform-linux atom-text-editor':
   'ctrl-shift-l': 'editor:split-selections-into-lines'
+  'ctrl-shift-e': 'px-to-em:toggle'
