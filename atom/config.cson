@@ -1,20 +1,46 @@
 "*":
-  "exception-reporting":
-    userId: "4c7649fe-542d-8db1-5f36-d42f206336ea"
-  welcome:
-    showOnStartup: false
-  "merge-conflicts": {}
+  "MavensMate-Atom":
+    mm_panel_height: 147
+  "atom-beautify":
+    general:
+      _analyticsUserId: "93f1925b-7d2e-4376-8be9-dbd93c14ca9e"
+    html:
+      indent_char: "  "
+  "autoclose-html": {}
   core:
+    disabledPackages: [
+      "linter-csslint"
+      "linter-scss-lint"
+      "autoclose-html"
+    ]
+    telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "monokai"
     ]
-  minimap: {}
   editor:
+    fontSize: 18
     invisibles: {}
     preferredLineLength: 120
     showIndentGuide: true
     showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+  "exception-reporting":
+    userId: "4c7649fe-542d-8db1-5f36-d42f206336ea"
+  "git-plus":
+    general:
+      _analyticsUserId: "9c203c4b-b1ae-4a9b-9e41-fd3976ae5068"
   "highlight-selected": {}
+  linter:
+    ignoreVCSIgnoredFiles: false
   "linter-htmlhint": {}
-  linter: {}
+  "linter-scss-lint":
+    executablePath: "node-scc-lint"
+  "merge-conflicts": {}
+  minimap: {}
+  pigments: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
