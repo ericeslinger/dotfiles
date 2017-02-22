@@ -30,3 +30,5 @@
 [user]
 	email = eric.eslinger@gmail.com
 	name = Eric Eslinger
+[diff]
+	external = /Users/eric/bin/git-diff.cmd.sh

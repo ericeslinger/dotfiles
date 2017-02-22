@@ -1,18 +1,23 @@
 "*":
-  "MavensMate-Atom":
-    mm_panel_height: 476
-  "atom-beautify":
-    general:
-      _analyticsUserId: "aeb04d16-4294-4dbd-bc52-386bbe022496"
-  "autoclose-html": {}
+  "exception-reporting":
+    userId: "4c7649fe-542d-8db1-5f36-d42f206336ea"
+  welcome:
+    showOnStartup: false
+  "merge-conflicts": {}
   core:
+    disabledPackages: [
+      "linter-csslint"
+      "linter-scss-lint"
+      "autoclose-html"
+    ]
     telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "monokai"
     ]
+  minimap: {}
   editor:
-    fontSize: 15
+    fontSize: 18
     invisibles: {}
     preferredLineLength: 120
     showIndentGuide: true
@@ -37,17 +42,12 @@
   "linter-sass-lint":
     globalSassLint: true
   "linter-scss-lint":
-    executablePath: "/home/eric/.rvm/gems/ruby-2.3.0/bin/scss-lint"
+    executablePath: "node-scc-lint"
   "merge-conflicts": {}
   minimap: {}
   pigments: {}
-  "split-diff":
-    diffWords: true
-    ignoreWhitespace: true
-    leftEditorColor: "red"
-    rightEditorColor: "green"
-    syncHorizontalScroll: true
-  "tree-view": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
 ".babel.regexp.source":

@@ -1,0 +1,101 @@
+"*":
+  "MavensMate-Atom":
+<<<<<<< HEAD
+    mm_panel_height: 476
+  "atom-beautify":
+    general:
+      _analyticsUserId: "aeb04d16-4294-4dbd-bc52-386bbe022496"
+  "autoclose-html": {}
+  core:
+=======
+    mm_panel_height: 147
+  "atom-beautify":
+    general:
+      _analyticsUserId: "93f1925b-7d2e-4376-8be9-dbd93c14ca9e"
+    html:
+      indent_char: "  "
+  "autoclose-html": {}
+  core:
+    disabledPackages: [
+      "linter-csslint"
+      "linter-scss-lint"
+      "autoclose-html"
+    ]
+>>>>>>> 82835f94dc67b057c45ce032ef5a81b017996e1d
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  editor:
+<<<<<<< HEAD
+    fontSize: 15
+=======
+    fontSize: 18
+>>>>>>> 82835f94dc67b057c45ce032ef5a81b017996e1d
+    invisibles: {}
+    preferredLineLength: 120
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+<<<<<<< HEAD
+    tabType: "soft"
+=======
+>>>>>>> 82835f94dc67b057c45ce032ef5a81b017996e1d
+  "exception-reporting":
+    userId: "4c7649fe-542d-8db1-5f36-d42f206336ea"
+  "git-plus":
+    general:
+<<<<<<< HEAD
+      _analyticsUserId: "a3dfc0ad-20f5-4a28-b7ee-6d0684ec5062"
+  "highlight-selected": {}
+  "language-babel":
+    disableWhenNoBabelrcFileInPath: true
+  linter:
+    errorPanelHeight: 28
+    ignoreVCSIgnoredFiles: false
+  "linter-eslint":
+    useGlobalEslint: true
+  "linter-htmlhint": {}
+  "linter-sass-lint":
+    globalSassLint: true
+  "linter-scss-lint":
+    executablePath: "/home/eric/.rvm/gems/ruby-2.3.0/bin/scss-lint"
+  "merge-conflicts": {}
+  minimap: {}
+  pigments: {}
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false
+".babel.regexp.source":
+  editor:
+    preferredLineLength: 120
+".diff.source":
+  editor:
+    preferredLineLength: 120
+".js.jsx.source":
+  editor:
+    preferredLineLength: 120
+=======
+      _analyticsUserId: "9c203c4b-b1ae-4a9b-9e41-fd3976ae5068"
+  "highlight-selected": {}
+  linter:
+    ignoreVCSIgnoredFiles: false
+  "linter-htmlhint": {}
+  "linter-scss-lint":
+    executablePath: "node-scc-lint"
+  "merge-conflicts": {}
+  minimap: {}
+  pigments: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
+>>>>>>> 82835f94dc67b057c45ce032ef5a81b017996e1d

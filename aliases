@@ -13,6 +13,9 @@ alias -g ONE="| awk '{ print \$1}'"
 alias e="$EDITOR"
 alias v="$VISUAL"
 
+alias nt="mocha --compilers js:babel-core/register test/*.spec.js --require test/helper.js"
+alias ni="nt --inspect --debug-brk"
+
 # git
 alias gci="git pull --rebase && rake && git push"
 
